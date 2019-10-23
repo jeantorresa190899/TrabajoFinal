@@ -10,6 +10,6 @@ nombre = str(input("Ingrese su nombre: "))
 
 print("hola", nombre)
 print(nombre, ", este programa consiste en responder 20 preguntas de cultura" 
-+ " general, \n las cuales te ayudarán a ")
++ " general, \n las cuales te ayudarán a expandir tus conociminetos")
 
 
