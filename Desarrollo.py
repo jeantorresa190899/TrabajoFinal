@@ -4,12 +4,12 @@ os.system("cls")
 
 # Inicio de la Aplicación
 
-print("Hola, bienvenido a esta nueva plataforma de aprendizaje.")
-print("¿Cual es su nombre?")
-nombre = str(input("Ingrese su nombre: "))
+print("********* Hola, bienvenido a esta nueva plataforma de aprendizaje.***********")
 
-print("hola", nombre)
-print(nombre, ", este programa consiste en responder 20 preguntas de cultura" 
-+ " general, \n las cuales te ayudarán a expandir tus conociminetos")
+nombre = str(input("¿Cuál es tu nombre? -----------> "))
+
+print("Hola", nombre)
+print("Este programa consiste en responder 20 preguntas de cultura" 
++ " general, \n las cuales te ayudarán a expandir tus conociminetos.")
 
 
