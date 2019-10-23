@@ -12,3 +12,8 @@
 
 ## ¿Cómo se vería al final?
 * Al final se mostraría la aplicación con una breve introducción y a por consiguiente las preguntas, y finalmente aparecerían las preguntas respondidas correctamente con su respectivo mensaje.
+
+## Integrantes:
+* ANNUNZIATA BOYER, Andre
+* VENEROS ZEVALLOS, Diego
+* TORRES ARMAS, Jean
