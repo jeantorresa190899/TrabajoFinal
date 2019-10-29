@@ -22,8 +22,8 @@ class Question:
 
 question_prompts = [
      "¿Cuál es un tipo de sabor primario?\n(a) Quemado\n(b)Rostizado\n(c)Umami\n(d)Sabroso\n\n",
-     "What color are bananas?\n(a) Red/Green\n(b)Yellow\n\n",
-]
+     "¿¿Cuál es el lugar más frío de la tierra??\n(a) Antartida\n(b)Suecia\n(c)Groenlandia\n(d)Islandia\n\n"
+     ]
 
 questions = [
      Question(question_prompts[0], "c"),
