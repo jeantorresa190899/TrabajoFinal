@@ -20,7 +20,7 @@ print("b) umami")
 print("c) rostizado")
 print ("d) sabroso")
 respuesta1 = str(input(""))
-if respuesta1 == "umami":
+if respuesta1 == "umami" or "Umami" or "b" or "B":
     print("Correcto!")
 else:
     print("Incorrecto")
