@@ -23,6 +23,49 @@ class Question:
 question_prompts = [
      "¿Cuál es un tipo de sabor primario?\n(a) Quemado\n(b)Rostizado\n(c)Umami\n(d)Sabroso\n\n",
      "¿¿Cuál es el lugar más frío de la tierra??\n(a) Antartida\n(b)Suecia\n(c)Groenlandia\n(d)Islandia\n\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+     "¿Cuál es el país más poblado del mundo?\n\t(a)Rusia \n\t(b)China\n (c)EE.UU\n (d)Canda",
+     2
+     3
+     4
+     5
+     6
+     7
+     8
+     9
+     10
+     11
+     12
+     13
+     14
+     15
+     1
+     2
+     3
+     4
+     5
+     6
+     7
+     8
+     9
+     10
+     11
+     12
+     13
+     14
+     15
      ]
 
 questions = [
