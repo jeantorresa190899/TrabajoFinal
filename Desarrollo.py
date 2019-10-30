@@ -1,5 +1,6 @@
 import os, sys
 os.system("cls")
+import random
 
 
 # Inicio de la Aplicación
@@ -10,9 +11,12 @@ nombre = str(input("¿Cuál es tu nombre? -----------> "))
 
 print("Hola", nombre)
 print("Este programa consiste en responder 20 preguntas de cultura" 
-+ " general, \n las cuales te ayudarán a expandir tus conociminetos.")
-
-comenzar = str(input("Comenzamos? "))
++ " general, \nlas cuales te ayudarán a expandir tus conociminetos.")
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
+print("¿Estas preparado?")
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
 
 
 class Question:
@@ -21,8 +25,8 @@ class Question:
           self.answer = answer
 
 question_prompts = [
-     "¿Cuál es un tipo de sabor primario?\n(a) Quemado\n(b)Rostizado\n(c)Umami\n(d)Sabroso\n\n",
-     "¿Cuál es el lugar más frío de la tierra??\n(a) Antartida\n(b)Suecia\n(c)Groenlandia\n(d)Islandia\n\n"
+     "¿Cuál es un tipo de sabor primario?\na) Quemado\nb)Rostizado\nc)Umami\nd)Sabroso\n\n",
+     "¿Cuál es el lugar más frío de la tierra??\n(a) Antartida\n(b)Suecia\n(c)Groenlandia\n(d)Islandia\n\n",
 
 
 
@@ -36,54 +40,42 @@ question_prompts = [
 
 
 
-     "¿Cuál es el país más poblado del mundo?\n(a)Rusia \n(b)China\n (c)EE.UU\n (d)Canada \n\n",
+     "¿Cuál es el país más poblado del mundo?\na)Rusia\nb)China\nc)EE.UU\nd)Canadá \n\n",
+     "¿Quién fue el líder de los nazis durante la Segunda Guerra Mundial? \n a)Mussolini \nb)Stalin \n c)Hitler \nd)F.Roosevelt",
+     "¿En qué país se encuentra la torre de Pisa? \na)Italia \nb)Francia \nc)España \ndAlemania)",
+     "¿Cuantos huesos tiene el cuerpo humano? \na)214 \nb)206 \nc)216 \nd)202",
+     "¿Cual de los siguientes animales es un marsupial? \na) \nb) \nc) \nd)",
+     "\na) \nb) \nc) \nd)"  
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
      
-     3
-     4
-     5
-     6
-     7
-     8
-     9
-     10
-     11
-     12
-     13
-     14
-     15
-     1
-     2
-     3
-     4
-     5
-     6
-     7
-     8
-     9
-     10
-     11
-     12
-     13
-     14
-     15
      ]
 
 questions = [
      Question(question_prompts[0], "c"),
      Question(question_prompts[1], "b"),
+     Question(question_prompts[2], "b")
+
+
+
+
+
+
+
+
+
+
+
+
+    
      
-
-
-
-
-
-
-
-
-
-
-
-     #Jean
 
 
 
@@ -125,5 +117,4 @@ def run_quiz(questions):
 
 run_quiz(questions)
 
-
-
+     
