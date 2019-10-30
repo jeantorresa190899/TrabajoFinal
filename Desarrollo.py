@@ -1,5 +1,6 @@
 import os, sys
 os.system("cls")
+import random
 
 
 # Inicio de la Aplicación
@@ -10,9 +11,12 @@ nombre = str(input("¿Cuál es tu nombre? -----------> "))
 
 print("Hola", nombre)
 print("Este programa consiste en responder 20 preguntas de cultura" 
-+ " general, \n las cuales te ayudarán a expandir tus conociminetos.")
-
-comenzar = str(input("Comenzamos? "))
++ " general, \nlas cuales te ayudarán a expandir tus conociminetos.")
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
+print("¿Estas preparado?")
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
 
 
 class Question:
@@ -22,7 +26,7 @@ class Question:
 
 question_prompts = [
      "¿Cuál es un tipo de sabor primario?\na) Quemado\nb)Rostizado\nc)Umami\nd)Sabroso\n\n",
-     "¿Cuál es el lugar más frío de la tierra??\na) Antartida\nb)Suecia\nc)Groenlandia\nd)Islandia\n\n",
+     "¿Cuál es el lugar más frío de la tierra??\n(a) Antartida\n(b)Suecia\n(c)Groenlandia\n(d)Islandia\n\n",
 
 
 
@@ -36,25 +40,21 @@ question_prompts = [
 
 
 
-     "¿Cuál es el país más poblado del mundo?\na)Rusia \nb)China\n c)EE.UU\n d)Canada \n\n",
-     
-     3
-     4
-     5
-     6
-     7
-     8
-     9
-     10
-     11
-     12
-     13
-     14
-     15
-
-
-
-
+     "¿Cuál es el país más poblado del mundo?\na)Rusia\nb)China\nc)EE.UU\nd)Canadá \n\n",
+     "¿Quién fue el líder de los nazis durante la Segunda Guerra Mundial? \n a)Mussolini \nb)Stalin \n c)Hitler \nd)F.Roosevelt",
+     "¿En qué país se encuentra la torre de Pisa? \na)Italia \nb)Francia \nc)España \ndAlemania)",
+     "¿Cuantos huesos tiene el cuerpo humano? \na)214 \nb)206 \nc)216 \nd)202",
+     "¿Cual de los siguientes animales es un marsupial? \na) \nb) \nc) \nd)",
+     "\na) \nb) \nc) \nd)"  
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
+     "\na) \nb) \nc) \nd)"
      "¿ Cuantas fueron las principales cruzadas(1095 - 1291)?\na)3 \nb)6 \nc)8 \nd)5\n",
      "¿ Quién fue el primer presidente del Perú?\na)Don José de San Martín \nb)José Mariano de la Riva Agüero y Sánchez Boquete \nc)José Bernardo de Torre Tagle \nd)José de la Mar\n",
      "¿ Cómo se la nombró a la primera computadora programable ?\na)Maquina de turing \nb)Z1 \nc)Eniac \nd)Osborne\n",
@@ -75,19 +75,21 @@ question_prompts = [
 questions = [
      Question(question_prompts[0], "c"),
      Question(question_prompts[1], "b"),
+     Question(question_prompts[2], "b")
+
+
+
+
+
+
+
+
+
+
+
+
+    
      
-
-
-
-
-
-
-
-
-
-
-
-     #Jean
 
 
 
@@ -129,5 +131,4 @@ def run_quiz(questions):
 
 run_quiz(questions)
 
-
-
+     
