@@ -47,14 +47,14 @@ question_prompts = [
      "¿Cual de los siguientes animales es un marsupial? \na)Gato \nb)Koala \nc)Chimpancé \nd)Conejo\n\n",
      "Si una década tiene 10 años.¿Cuantos años tiene un lustro? \na)20 \nb)10 \nc)5 \nd15)\n\n",  
      "¿En qué año llegó el primer hombre a la Luna?\na)1969 \nb)1979 \nc)1980 \nd)1976)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
-     "\na) \nb) \nc) \nd)\n\n"
+     "¿En que continente se encuentra Haití?\na)Africa \nb)Europa \nc)America \nd)Oceania\n\n"
+     "¿Quién pintó “la última cena”?\na)Raffaello Sanzio de Urbino \nb)Miguel Angel \nc)Alessandro di Mariano \nd)Leonardo D'Vinci\n\n"
+     "¿Cómo se llama el himno nacional de Francia?\na)Das Lied der Deutschen \nb)The Star-Spangled Banner\nc)Marsellesa \nd)Il Canto degli Italiani\n\n"
+     "¿Qué año llegó Cristóbal Colón a América?\na)1512 \nb)1498 \nc)1492 \nd)1495\n\n"
+     "¿Cuál es el río más largo del mundo?\na)Yangtsé \nb)Nilo \nc)Amazonas \nd)Misisipi\n\n"
+     "¿Cuantos corazones tienen los pulpos?\na)2 \nb)1 \nc)3 \nd)5\n\n"
+     "¿Cuál es el libro sagrado del Islam?\na)Biblia \nb)Coran \nc)Credo\nd)Documento de Damasco\n\n"
+     "¿En qué país se ubica la Casa Rosada?\na)EE.UU \nb)Uruguay \nc)Argentina \nd)Chile\n\n"
      "¿ Cuantas fueron las principales cruzadas(1095 - 1291)?\na)3 \nb)6 \nc)8 \nd)5\n",
      "¿ Quién fue el primer presidente del Perú?\na)Don José de San Martín \nb)José Mariano de la Riva Agüero y Sánchez Boquete \nc)José Bernardo de Torre Tagle \nd)José de la Mar\n",
      "¿ Cómo se la nombró a la primera computadora programable ?\na)Maquina de turing \nb)Z1 \nc)Eniac \nd)Osborne\n",
@@ -75,20 +75,6 @@ question_prompts = [
 questions = [
      Question(question_prompts[0], "c"),
      Question(question_prompts[1], "b"),
-     Question(question_prompts[2], "b")
-
-
-
-
-
-
-
-
-
-
-
-
-    
      
 
 
@@ -102,7 +88,22 @@ questions = [
 
 
 
-
+     Question(question_prompts[15], "b"),
+     Question(question_prompts[16], "c"), 
+     Question(question_prompts[17], "a"), 
+     Question(question_prompts[18], "b"), 
+     Question(question_prompts[19], "b"), 
+     Question(question_prompts[20], "c"), 
+     Question(question_prompts[21], "b"), 
+     Question(question_prompts[22], "c"), 
+     Question(question_prompts[23], "d"), 
+     Question(question_prompts[24], "c"), 
+     Question(question_prompts[25], "c"), 
+     Question(question_prompts[26], "c"), 
+     Question(question_prompts[27], "c"), 
+     Question(question_prompts[28], "c"), 
+     Question(question_prompts[29], "b"), 
+     Question(question_prompts[30], "c"), 
      #Diego
 
 
