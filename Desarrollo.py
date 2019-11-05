@@ -10,7 +10,7 @@ print("********* Hola, bienvenido a esta nueva plataforma de aprendizaje.*******
 nombre = str(input("¿Cuál es tu nombre? -----------> "))
 
 print("Hola", nombre)
-print("Este programa consiste en responder 20 preguntas de cultura" 
+print("Este programa consiste en responder 45 preguntas de cultura" 
 + " general, \nlas cuales te ayudarán a expandir tus conocimientos.")
 print("----------------------------------------------------------------")
 print("----------------------------------------------------------------")
@@ -123,13 +123,24 @@ questions = [
 
 def run_quiz(questions):
      score = 0
-     i = random.randint(0,44)
-     question = question_prompts[i]
+     i= random.choice(question_prompts)
+     
      for question in questions:
           answer = input(question.prompt)
           if answer == question.answer:
                score += 1
-     print("you got", score, "out of", len(questions))
+     print("Tienes", score, "de", len(questions))
+
+
+     if score <= 11:
+          mensaje = "- Bajito"
+     elif score <=20:
+          mensaje = "- Buen intento!"
+     elif score <=30:
+          mensaje = "- Buen trabajo!"
+     else:
+          mensaje = "- Excelente!"
+     print(mensaje)
 
 run_quiz(questions)
 
