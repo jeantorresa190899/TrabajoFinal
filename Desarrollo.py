@@ -11,7 +11,7 @@ nombre = str(input("¿Cuál es tu nombre? -----------> "))
 
 print("Hola", nombre)
 print("Este programa consiste en responder 20 preguntas de cultura" 
-+ " general, \nlas cuales te ayudarán a expandir tus conociminetos.")
++ " general, \nlas cuales te ayudarán a expandir tus conocimientos.")
 print("----------------------------------------------------------------")
 print("----------------------------------------------------------------")
 print("¿Estas preparado?")
@@ -32,7 +32,15 @@ question_prompts = [
      "¿En qué continente está San Marino?\na) América del Norte\nb)América del Sur\nc)Europa\nd)Asia\n\n",
      "¿Qué cantidad de huesos hay en el cuerpo humano?\na) 212\nb)206\nc)300\nd)120\n\n",
      "¿En qué país se encuentra la torre de Pisa?\na) Alemania\nb)España\nc)Italia\nd)Suiza\n\n",
-     "¿Qúe año llegó Cristobal Colón a América?\na) 1592\nb)1492\nc)1692\nd)1392\n\n",
+     "¿Qúe año llegó Cristóbal Colón a América?\na) 1592\nb)1492\nc)1692\nd)1392\n\n",
+     "¿Qué deporte practicaba Michael Jordan?\na) Baseball\nb)Football\nc)Basketball\nd)Golf\n\n",
+     "¿Cual es país más poblado de la Tierra?\na) India\nb)China\nc)Estados Unidos de América\nd)Brasil\n\n",
+     "¿De qué estilo arquitectónico es la Catedral de Notre Dame en París?\na) Rómanico\nb)Barroco\nc)Neoclásico\nd)Gótico\n\n",
+     "¿Quién va a la cárcel?\na) Imputado\nb)Acusado\nc)Condenado\nd)Testigo\n\n",
+     "¿A qué país pertenece la ciudad de Varsovia?\na) Polonia\nb)Austria\nc)Rusia\nd)Bielorusia\n\n",
+     "¿Cuál es el metal más caro del mundo?\na) Oro\nb)Plata\nc)Rodio\nd)Aluminio\n\n",
+     "¿Cuál es la nacionalidad de Pablo Neruda?\na) Chilena\nb)Boliviana\nc)Argentina\nd)Uruguaya\n\n",
+
 
 
 
