@@ -74,20 +74,20 @@ question_prompts = [
 
 questions = [
      Question(question_prompts[0], "c"),
-     Question(question_prompts[1], "b"),
-     
-
-
-
-
-
-
-
-
-
-
-
-
+     Question(question_prompts[1], "a"),
+     Question(question_prompts[2], "c"),
+     Question(question_prompts[3], "c"),
+     Question(question_prompts[4], "c"),
+     Question(question_prompts[5], "a"),
+     Question(question_prompts[6], "a"),
+     Question(question_prompts[7], "a"),
+     Question(question_prompts[8], "c"),
+     Question(question_prompts[9], "b"),
+     Question(question_prompts[10], "d"),
+     Question(question_prompts[11], "c"),
+     Question(question_prompts[12], "a"),
+     Question(question_prompts[13], "c"),
+     Question(question_prompts[14], "a"),
      Question(question_prompts[15], "b"),
      Question(question_prompts[16], "c"), 
      Question(question_prompts[17], "a"), 
