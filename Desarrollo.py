@@ -124,7 +124,7 @@ questions = [
 def run_quiz(questions):
      score = 0
      i = random.randint(0,44)
-     question = questions[i]
+     question = question_prompts[i]
      for question in questions:
           answer = input(question.prompt)
           if answer == question.answer:
