@@ -27,6 +27,16 @@ class Question:
 question_prompts = [
      "¿Cuál es un tipo de sabor primario?\na) Quemado\nb)Rostizado\nc)Umami\nd)Sabroso\n\n",
      "¿Cuál es el lugar más frío de la tierra??\n(a) Antartida\n(b)Suecia\n(c)Groenlandia\n(d)Islandia\n\n",
+     "¿Quién escribió La Odisea?\na) Sócrates\nb)Pitágoras\nc)Homero\nd)Aristóteles\n\n",
+     "¿Cuál es el río más largo del mundo?\na) Nilo\nb)Amazonas\nc)Yangtsé\nd)Misisipi\n\n",
+     "¿En qué continente está San Marino?\na) América del Norte\nb)América del Sur\nc)Europa\nd)Asia\n\n",
+     "¿Qué cantidad de huesos hay en el cuerpo humano?\na) 212\nb)206\nc)300\nd)120\n\n",
+     "¿En qué país se encuentra la torre de Pisa?\na) Alemania\nb)España\nc)Italia\nd)Suiza\n\n",
+     "¿Qúe año llegó Cristobal Colón a América?\na) 1592\nb)1492\nc)1692\nd)1392\n\n",
+
+
+
+
 
 
 
