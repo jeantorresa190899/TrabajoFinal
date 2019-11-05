@@ -103,24 +103,6 @@ questions = [
      Question(question_prompts[27], "c"), 
      Question(question_prompts[28], "b"), 
      Question(question_prompts[29], "c"), 
-     
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-=======
      Question(question_prompts[30], "c"), 
      Question(question_prompts[31], "b"),
      Question(question_prompts[32], "b"),
@@ -136,7 +118,6 @@ questions = [
      Question(question_prompts[43], "d"),
      Question(question_prompts[44], "b"),
      Question(question_prompts[45], "a")
->>>>>>> 6bd56f7013c1100bdf65df39baf9c51bef7a6351
      
 ]
 
