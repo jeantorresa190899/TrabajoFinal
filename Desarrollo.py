@@ -123,8 +123,6 @@ questions = [
 
 def run_quiz(questions):
      score = 0
-     i= random.choice(question_prompts)
-     
      for question in questions:
           answer = input(question.prompt)
           if answer == question.answer:
@@ -133,7 +131,7 @@ def run_quiz(questions):
 
 
      if score <= 11:
-          mensaje = "- Bajito"
+          mensaje = "- Vuelvo a intentar"
      elif score <=20:
           mensaje = "- Buen intento!"
      elif score <=30:
