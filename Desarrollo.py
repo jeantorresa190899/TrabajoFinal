@@ -40,16 +40,6 @@ question_prompts = [
 
 
 
-
-
-
-
-
-
-
-
-
-
      "¿Cuál es el país más poblado del mundo?\na)Rusia\nb)China\nc)EE.UU\nd)Canadá \n\n",
      "¿Quién fue el líder de los nazis durante la Segunda Guerra Mundial? \n a)Mussolini \nb)Stalin \n c)Hitler \nd)F.Roosevelt\n\n",
      "¿En qué país se encuentra la torre de Pisa? \na)Italia \nb)Francia \nc)España \nd)Alemania \n\n",
@@ -127,7 +117,7 @@ questions = [
      Question(question_prompts[42], "d"),
      Question(question_prompts[43], "d"),
      Question(question_prompts[44], "b"),
-     Question(question_prompts[45], "a"),
+     Question(question_prompts[45], "a")
      
 ]
 
