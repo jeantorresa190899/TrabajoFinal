@@ -75,7 +75,7 @@ question_prompts = [
 questions = [
      Question(question_prompts[0], "c"),
      Question(question_prompts[1], "b"),
-     Question(question_prompts[2], "b")
+     Question(question_prompts[2], "b"),
 
 
 
@@ -103,21 +103,21 @@ questions = [
 
 
 
-     #Diego
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     Question(question_prompts[30], "c"), 
+     Question(question_prompts[31], "b"),
+     Question(question_prompts[32], "b"),
+     Question(question_prompts[33], "b"),
+     Question(question_prompts[34], "a"),
+     Question(question_prompts[35], "a"),
+     Question(question_prompts[36], "d"),
+     Question(question_prompts[37], "d"),
+     Question(question_prompts[38], "c"),
+     Question(question_prompts[39], "c"),
+     Question(question_prompts[41], "b"),
+     Question(question_prompts[42], "d"),
+     Question(question_prompts[43], "d"),
+     Question(question_prompts[44], "b"),
+     Question(question_prompts[45], "a"),
      
 ]
 
