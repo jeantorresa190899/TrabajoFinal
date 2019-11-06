@@ -40,13 +40,13 @@ question_prompts = [
      "¿A qué país pertenece la ciudad de Varsovia?\na)Polonia\nb)Austria\nc)Rusia\nd)Bielorusia\n\n",
      "¿Cuál es el metal más caro del mundo?\na)Oro\nb)Plata\nc)Rodio\nd)Aluminio\n\n",
      "¿Cuál es la nacionalidad de Pablo Neruda?\na)Chilena\nb)Boliviana\nc)Argentina\nd)Uruguaya\n\n",
-     "¿Cuál es el país más poblado del mundo?\na)Rusia\nb)China\nc)EE.UU\nd)Canadá \n\n",
-     "¿Quién fue el líder de los nazis durante la Segunda Guerra Mundial? \n a)Mussolini \nb)Stalin \n c)Hitler \nd)F.Roosevelt\n\n",
+     "¿Cuál es el país más poblado del mundo?\na)Rusia\nb)China\nc)EE.UU\nd)Canadá\n\n",
+     "¿Quién fue el líder de los nazis durante la Segunda Guerra Mundial? \na)Mussolini \nb)Stalin \n c)Hitler \nd)F.Roosevelt\n\n",
      "¿En qué país se encuentra la torre de Pisa? \na)Italia \nb)Francia \nc)España \nd)Alemania \n\n",
      "¿Cuantos huesos tiene el cuerpo humano? \na)214 \nb)206 \nc)216 \nd)202 \n\n",
      "¿Cual de los siguientes animales es un marsupial? \na)Gato \nb)Koala \nc)Chimpancé \nd)Conejo\n\n",
      "Si una década tiene 10 años.¿Cuantos años tiene un lustro? \na)20 \nb)10 \nc)5 \nd15)\n\n",  
-     "¿En qué año llegó el primer hombre a la Luna?\na)1969 \nb)1979 \nc)1980 \nd)1976)\n\n",
+     "¿En qué año llegó el primer hombre a la Luna?\na)1969 \nb)1979 \nc)1980 \nd)1976\n\n",
      "¿En que continente se encuentra Haití?\na)Africa \nb)Europa \nc)America \nd)Oceania\n\n",
      "¿Quién pintó “la última cena”?\na)Raffaello Sanzio de Urbino \nb)Miguel Angel \nc)Alessandro di Mariano \nd)Leonardo D'Vinci\n\n",
      "¿Cómo se llama el himno nacional de Francia?\na)Das Lied der Deutschen \nb)The Star-Spangled Banner\nc)Marsellesa \nd)Il Canto degli Italiani\n\n",
@@ -121,25 +121,33 @@ questions = [
      
 ]
 
+
 def run_quiz(questions):
      score = 0
+     i = 0
+     random.shuffle(questions)
+     random.sample(questions,5)
      for question in questions:
+          print("................")
+          print("Pregunta: ", i+1)
           answer = input(question.prompt)
+          i +=1
           if answer == question.answer:
-               score += 1
+               score += 1      
      print("Tienes", score, "de", len(questions))
 
 
      if score <= 11:
           mensaje = "- Vuelvo a intentar"
      elif score <=20:
-          mensaje = "- Buen intento!"
+          mensaje = "- Not bad!"
      elif score <=30:
-          mensaje = "- Buen trabajo!"
+          mensaje = "- Buen intento!"
      else:
-          mensaje = "- Excelente!"
+          mensaje = "- Buen trabajo!"
      print(mensaje)
 
 run_quiz(questions)
+
 
      
