@@ -10,13 +10,13 @@ print("********* Hola, bienvenido a esta nueva plataforma de aprendizaje.*******
 nombre = str(input("¿Cuál es tu nombre? -----------> "))
 
 print("Hola", nombre)
-print("Este programa consiste en responder 45 preguntas de cultura" 
+print("Este programa consiste en responder 20 preguntas de cultura" 
 + " general, \nlas cuales te ayudarán a expandir tus conocimientos.")
+print("\n")
 print("----------------------------------------------------------------")
+print("|                     ¿Estas preparado?                        |")
 print("----------------------------------------------------------------")
-print("¿Estas preparado?")
-print("----------------------------------------------------------------")
-print("----------------------------------------------------------------")
+
 
 
 class Question:
