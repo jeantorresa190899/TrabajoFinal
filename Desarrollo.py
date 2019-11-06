@@ -120,9 +120,9 @@ questions = [
      Question(question_prompts[44], "a")
      
 ]
-
 def run_quiz(questions):
      score = 0
+     questions = random.choices(questions, k=20)
      for question in questions:
           answer = input(question.prompt)
           if answer == question.answer:
