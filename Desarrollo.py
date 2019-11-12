@@ -14,7 +14,7 @@ print("Este programa consiste en responder 20 preguntas de cultura"
 + " general, \nlas cuales te ayudarán a expandir tus conocimientos.")
 print("\n")
 print("----------------------------------------------------------------")
-print("|                     ¿Estas preparado?                        |")
+print("|                        ¡COMENZEMOS!                           |")
 print("----------------------------------------------------------------")
 
 
@@ -26,7 +26,7 @@ class Question:
 
 question_prompts = [
      "¿Cuál es un tipo de sabor primario?\na)Quemado\nb)Rostizado\nc)Umami\nd)Sabroso\n\n",
-     "¿Cuál es el lugar más frío de la tierra??\n(a)Antartida\n(b)Suecia\n(c)Groenlandia\n(d)Islandia\n\n",
+     "¿Cuál es el lugar más frío de la tierra??\na)Antartida\nb)Suecia\nc)Groenlandia\nd)Islandia\n\n",
      "¿Quién escribió La Odisea?\na)Sócrates\nb)Pitágoras\nc)Homero\nd)Aristóteles\n\n",
      "¿Cuántos Estados tiene integrados Estados Unidos? \na)32\nb)49\nc)50\nd)55\n\n",
      "¿En qué continente está San Marino?\na)América del Norte\nb)América del Sur\nc)Europa\nd)Asia\n\n",
@@ -45,7 +45,7 @@ question_prompts = [
      "¿En qué país se encuentra la torre de Pisa? \na)Italia \nb)Francia \nc)España \nd)Alemania \n\n",
      "¿Cuantos huesos tiene el cuerpo humano? \na)214 \nb)206 \nc)216 \nd)202 \n\n",
      "¿Cual de los siguientes animales es un marsupial? \na)Gato \nb)Koala \nc)Chimpancé \nd)Conejo\n\n",
-     "Si una década tiene 10 años.¿Cuantos años tiene un lustro? \na)20 \nb)10 \nc)5 \nd15)\n\n",  
+     "Si una década tiene 10 años.¿Cuantos años tiene un lustro? \na)20 \nb)10 \nc)5 \nd)15\n\n",  
      "¿En qué año llegó el primer hombre a la Luna?\na)1969 \nb)1979 \nc)1980 \nd)1976\n\n",
      "¿En que continente se encuentra Haití?\na)Africa \nb)Europa \nc)America \nd)Oceania\n\n",
      "¿Quién pintó “la última cena”?\na)Raffaello Sanzio de Urbino \nb)Miguel Angel \nc)Alessandro di Mariano \nd)Leonardo D'Vinci\n\n",
@@ -126,25 +126,34 @@ def run_quiz(questions):
      score = 0
      i = 0
      random.shuffle(questions)
+<<<<<<< HEAD
      questions = random.sample(questions, k=20)   
+=======
+     questions = random.sample(questions, k=20)
+>>>>>>> dd37c37ec54d59b4414aaa692f0927e165e8925e
      for question in questions:
           print("................")
-          print("Pregunta:", i+1)
+          print("Pregunta:", i+1)   
           answer = input(question.prompt)
+<<<<<<< HEAD
           from itertools import chain, repeat
           answer = {'a', 'b', 'c', 'd'}
           prompts = chain(["Ingrese una letra del listado: "], repeat("Ingresa una letra del listado: "))
           replies = map(input, prompts)
           valid_response = next(filter(answer.__contains__, replies))
           print(valid_response)
+=======
+>>>>>>> dd37c37ec54d59b4414aaa692f0927e165e8925e
           i +=1
-          if answer == question.answer:
-               score += 1      
+          if answer == question.answer:         
+               score += 1 
+
+   
      print("Tienes", score, "de", len(questions))
      
 
      if score <= 5:
-          mensaje = "- Vuelvo a intentar"
+          mensaje = "- Vuelve a intentar"
      elif score <=10:
           mensaje = "- Not bad!"
      elif score <=15:
