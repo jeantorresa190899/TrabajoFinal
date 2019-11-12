@@ -127,7 +127,10 @@ def run_quiz(questions):
      i = 0
      random.shuffle(questions)
      questions = random.sample(questions, k=20)
+<<<<<<< HEAD
      
+=======
+>>>>>>> a3561662f5e7dc03cef0c37e9aedd6f2671bd4f6
      for question in questions:
           print("................")
           print("Pregunta:", i+1)   
@@ -141,7 +144,7 @@ def run_quiz(questions):
      
 
      if score <= 5:
-          mensaje = "- Vuelvo a intentar"
+          mensaje = "- Vuelve a intentar"
      elif score <=10:
           mensaje = "- Not bad!"
      elif score <=15:
