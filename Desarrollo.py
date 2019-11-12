@@ -126,24 +126,17 @@ def run_quiz(questions):
      score = 0
      i = 0
      random.shuffle(questions)
-<<<<<<< HEAD
      questions = random.sample(questions, k=20)   
-=======
-     questions = random.sample(questions, k=20)
->>>>>>> dd37c37ec54d59b4414aaa692f0927e165e8925e
      for question in questions:
           print("................")
           print("Pregunta:", i+1)   
           answer = input(question.prompt)
-<<<<<<< HEAD
           from itertools import chain, repeat
           answer = {'a', 'b', 'c', 'd'}
           prompts = chain(["Ingrese una letra del listado: "], repeat("Ingresa una letra del listado: "))
           replies = map(input, prompts)
           valid_response = next(filter(answer.__contains__, replies))
           print(valid_response)
-=======
->>>>>>> dd37c37ec54d59b4414aaa692f0927e165e8925e
           i +=1
           if answer == question.answer:         
                score += 1 
