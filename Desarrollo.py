@@ -138,7 +138,7 @@ def run_quiz(questions):
      
 
      if score <= 5:
-          mensaje = "- Vuelvo a intentar"
+          mensaje = "- Vuelve a intentar"
      elif score <=10:
           mensaje = "- Not bad!"
      elif score <=15:
