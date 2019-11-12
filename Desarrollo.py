@@ -126,12 +126,11 @@ def run_quiz(questions):
      score = 0
      i = 0
      random.shuffle(questions)
-     questions = random.choices(questions, k=20)
+     questions = random.sample(questions, k=20)
      for question in questions:
           print("................")
           print("Pregunta:", i+1)
           answer = input(question.prompt)
-          
           i +=1
           if answer == question.answer:
                score += 1      
