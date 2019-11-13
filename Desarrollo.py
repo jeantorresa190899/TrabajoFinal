@@ -130,7 +130,7 @@ def run_quiz(questions):
      for question in questions:
           print("................")
           print("Pregunta:", i+1)   
-          answer = input(question.prompt)
+          print(question.prompt)
           from itertools import chain, repeat
           answer = {'a', 'b', 'c', 'd'}
           prompts = chain(["Ingrese una letra del listado: "], repeat("Ingresa una letra del listado: "))
@@ -138,7 +138,7 @@ def run_quiz(questions):
           valid_response = next(filter(answer.__contains__, replies))
           print(valid_response)
           i +=1
-          if answer == question.answer:         
+          if valid_response == question.answer:         
                score += 1 
 
    
