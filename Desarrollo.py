@@ -124,7 +124,6 @@ questions = [
 
 def run_quiz(questions):
      score = 0
-     i = 0
      random.shuffle(questions)
      questions = random.sample(questions, k=20)   
      for question in questions:
